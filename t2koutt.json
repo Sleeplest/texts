@@ -1,0 +1,16 @@
+{
+  "name": "Traditional Chinese to Traditional Chinese (Koutt Standard)",
+  "segmentation": {
+    "type": "mmseg",
+    "dict": {
+      "type": "text",
+      "file": "dzing_variants.txt"
+    }
+  },
+  "conversion_chain": [{
+    "dict": {
+      "type": "text",
+      "file": "dzing_variants.txt"
+    }
+  }]
+}
